@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="HelloRequest">
+    <output-path>$PROJECT_DIR$/out/artifacts/HelloRequest</output-path>
+    <root id="archive" name="HelloRequest.war">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="HelloServlet" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="HelloServlet/web/Web" />
+    </root>
+  </artifact>
+</component>
