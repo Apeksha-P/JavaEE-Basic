@@ -6,12 +6,12 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.io.PrintWriter;
 
-@WebServlet(urlPatterns = "/hello")
-public class HttpRequest extends HttpServlet {
+@WebServlet(urlPatterns = "/customer")
+public class CustomerServlet extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        System.out.println("Response get");
+        System.out.printf("Customer servlet");
         PrintWriter writer = resp.getWriter();
-        writer.write("Hello Send Response");
+        writer.write("Response from customer servlet");
     }
 }
