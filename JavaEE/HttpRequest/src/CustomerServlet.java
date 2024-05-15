@@ -19,4 +19,10 @@ public class CustomerServlet extends HttpServlet {
         PrintWriter writer = resp.getWriter();
         writer.write("Post method called");
     }
+
+    @Override
+    protected void doDelete(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+        PrintWriter writer = resp.getWriter();
+        writer.write("Delete");
+    }
 }
