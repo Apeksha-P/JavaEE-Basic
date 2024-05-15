@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/HelloServlet/HelloServlet.iml" filepath="$PROJECT_DIR$/HelloServlet/HelloServlet.iml" />
       <module fileurl="file://$PROJECT_DIR$/HttpRequest/HttpRequest.iml" filepath="$PROJECT_DIR$/HttpRequest/HttpRequest.iml" />
       <module fileurl="file://$PROJECT_DIR$/JavaEE.iml" filepath="$PROJECT_DIR$/JavaEE.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MappingSpec/MappingSpec.iml" filepath="$PROJECT_DIR$/MappingSpec/MappingSpec.iml" />
     </modules>
   </component>
 </project>
