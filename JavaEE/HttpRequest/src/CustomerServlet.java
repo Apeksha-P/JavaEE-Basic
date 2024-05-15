@@ -12,7 +12,7 @@ public class CustomerServlet extends HttpServlet {
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         System.out.printf("Customer servlet");
         PrintWriter writer = resp.getWriter();
-        writer.write("Response from customer servlet");
+        writer.write("<h1>Response from customer servlet</h1>");
     }
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {

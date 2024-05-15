@@ -96,8 +96,8 @@
     })
     $("#btn3").click(function (){
         $.ajax({
-            url:"http://localhost:8080/Hello/hello",
-            method:"POST",
+            url:"http://localhost:8080/Hello/customer",
+            method:"GET",
             success:function (resp){
                 console.log(resp);
                 // $("#tblCustomer2").empty();
